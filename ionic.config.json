@@ -1,0 +1,7 @@
+{
+  "name": "authenNode",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
