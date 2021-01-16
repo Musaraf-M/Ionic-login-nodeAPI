@@ -40,7 +40,6 @@ export class AuthService {
       }
     });
   }
- 
   register(credentials) {
     return this.http.post(`${this.url}/api/register`, credentials).pipe(
       catchError(e => {
